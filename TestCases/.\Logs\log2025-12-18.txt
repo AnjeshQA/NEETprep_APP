@@ -1,0 +1,37 @@
+2025-12-18 21:36:56,758 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH
+2025-12-18 21:37:28,670 - BasePage.py:[37] - [ERROR] - Element not found within timeout: dailyDpp_ID
+2025-12-18 21:37:45,226 - BasePage.py:[43] - [INFO] - Clicking on an Element: dailyDpp_StartTest_XPATH
+2025-12-18 21:38:24,152 - BasePage.py:[37] - [ERROR] - Element not found within timeout: selectCorrectOptionBy_ID
+2025-12-18 21:42:03,441 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH
+2025-12-18 21:42:33,043 - BasePage.py:[37] - [ERROR] - Element not found within timeout: dailyDpp_ID
+2025-12-18 21:42:44,138 - BasePage.py:[43] - [INFO] - Clicking on an Element: dailyDpp_StartTest_XPATH
+2025-12-18 21:43:20,976 - BasePage.py:[48] - [INFO] - Typing in Element: mobile_number_XPATH | Value: 9000000000
+2025-12-18 21:43:41,652 - BasePage.py:[37] - [ERROR] - Element not found within timeout: otpButton_ID
+2025-12-18 21:44:27,044 - BasePage.py:[37] - [ERROR] - Element not found within timeout: dailyDpp_ID
+2025-12-18 21:44:45,956 - BasePage.py:[43] - [INFO] - Clicking on an Element: dailyDpp_StartTest_XPATH
+2025-12-18 21:45:06,503 - BasePage.py:[37] - [ERROR] - Element not found within timeout: selectCorrectOptionBy_ID
+2025-12-18 21:45:54,812 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH
+2025-12-18 21:46:28,567 - BasePage.py:[37] - [ERROR] - Element not found within timeout: dailyDpp_ID
+2025-12-18 21:46:41,222 - BasePage.py:[43] - [INFO] - Clicking on an Element: dailyDpp_StartTest_XPATH
+2025-12-18 21:47:01,795 - BasePage.py:[37] - [ERROR] - Element not found within timeout: selectCorrectOptionBy_ID
+2025-12-18 21:49:16,823 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH
+2025-12-18 21:49:48,170 - BasePage.py:[37] - [ERROR] - Element not found within timeout: dailyDpp_ID
+2025-12-18 21:50:02,704 - BasePage.py:[43] - [INFO] - Clicking on an Element: dailyDpp_StartTest_XPATH
+2025-12-18 21:50:23,293 - BasePage.py:[37] - [ERROR] - Element not found within timeout: selectCorrectOptionBy_ID
+2025-12-18 21:51:45,985 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH
+2025-12-18 21:52:17,195 - BasePage.py:[37] - [ERROR] - Element not found within timeout: dailyDpp_ID
+2025-12-18 21:52:30,220 - BasePage.py:[43] - [INFO] - Clicking on an Element: dailyDpp_StartTest_XPATH
+2025-12-18 21:52:50,949 - BasePage.py:[37] - [ERROR] - Element not found within timeout: selectCorrectOptionBy_ID
+2025-12-18 21:53:53,527 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH
+2025-12-18 21:57:55,519 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH
+2025-12-18 22:04:46,266 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH
+2025-12-18 22:14:41,519 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH
+2025-12-18 22:22:42,312 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH
+2025-12-18 22:38:06,821 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH
+2025-12-18 22:45:55,872 - BasePage.py:[38] - [ERROR] - CRITICAL: Element mobile_number_XPATH not VISIBLE within 30s.
+2025-12-18 23:00:22,569 - BasePage.py:[38] - [ERROR] - CRITICAL: Element mobile_number_ID not VISIBLE within 30s.
+2025-12-18 23:20:40,805 - BasePage.py:[55] - [INFO] - Typed '9000000000' into mobile_number_ID
+2025-12-18 23:20:44,628 - BasePage.py:[48] - [INFO] - Clicking on Element: otpButton_ID
+2025-12-18 23:20:46,657 - BasePage.py:[55] - [INFO] - Typed '876302' into enterOTP_ID
+2025-12-18 23:20:48,648 - BasePage.py:[48] - [INFO] - Clicking on Element: verifyOTP_ID
+2025-12-18 23:21:20,989 - BasePage.py:[38] - [ERROR] - CRITICAL: Element dailyDpp_ID not VISIBLE within 30s.

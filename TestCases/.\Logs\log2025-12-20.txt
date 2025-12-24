@@ -1,0 +1,72 @@
+2025-12-20 12:23:25,559 - BasePage.py:[55] - [INFO] - Typed '9000000000' into mobile_number_ID
+2025-12-20 12:23:29,666 - BasePage.py:[48] - [INFO] - Clicking on Element: otpButton_ID
+2025-12-20 12:23:31,663 - BasePage.py:[55] - [INFO] - Typed '876302' into enterOTP_ID
+2025-12-20 12:23:34,973 - BasePage.py:[48] - [INFO] - Clicking on Element: verifyOTP_ID
+2025-12-20 13:19:05,968 - BasePage.py:[55] - [INFO] - Typed '9000000000' into mobile_number_ID
+2025-12-20 13:19:07,544 - BasePage.py:[48] - [INFO] - Clicking on Element: otpButton_ID
+2025-12-20 13:19:10,382 - BasePage.py:[55] - [INFO] - Typed '876302' into enterOTP_ID
+2025-12-20 13:19:12,732 - BasePage.py:[48] - [INFO] - Clicking on Element: verifyOTP_ID
+2025-12-20 13:19:54,951 - BasePage.py:[38] - [ERROR] - CRITICAL: Element dailyDpp_ID not VISIBLE within 30s.
+2025-12-20 13:26:17,551 - BasePage.py:[55] - [INFO] - Typed '9000000000' into mobile_number_ID
+2025-12-20 13:26:19,114 - BasePage.py:[48] - [INFO] - Clicking on Element: otpButton_ID
+2025-12-20 13:26:21,971 - BasePage.py:[55] - [INFO] - Typed '876302' into enterOTP_ID
+2025-12-20 13:26:23,969 - BasePage.py:[48] - [INFO] - Clicking on Element: verifyOTP_ID
+2025-12-20 13:26:36,151 - BasePage.py:[48] - [INFO] - Clicking on Element: dailyDpp_XPATH
+2025-12-20 13:54:54,607 - BasePage.py:[55] - [INFO] - Typed '9000000000' into mobile_number_ID
+2025-12-20 13:54:56,387 - BasePage.py:[48] - [INFO] - Clicking on Element: otpButton_ID
+2025-12-20 13:54:59,295 - BasePage.py:[55] - [INFO] - Typed '876302' into enterOTP_ID
+2025-12-20 13:55:02,314 - BasePage.py:[48] - [INFO] - Clicking on Element: verifyOTP_ID
+2025-12-20 14:04:05,813 - BasePage.py:[55] - [INFO] - Typed '9000000000' into mobile_number_ID
+2025-12-20 14:04:07,004 - BasePage.py:[48] - [INFO] - Clicking on Element: otpButton_ID
+2025-12-20 14:04:09,891 - BasePage.py:[55] - [INFO] - Typed '876302' into enterOTP_ID
+2025-12-20 14:04:12,093 - BasePage.py:[48] - [INFO] - Clicking on Element: verifyOTP_ID
+2025-12-20 14:04:22,100 - BasePage.py:[29] - [ERROR] - Invalid locator suffix for: drawerMenu
+2025-12-20 15:36:02,503 - BasePage.py:[55] - [INFO] - Typed '9000000000' into mobile_number_ID
+2025-12-20 15:36:03,767 - BasePage.py:[48] - [INFO] - Clicking on Element: otpButton_ID
+2025-12-20 15:36:05,654 - BasePage.py:[55] - [INFO] - Typed '876302' into enterOTP_ID
+2025-12-20 15:36:08,644 - BasePage.py:[48] - [INFO] - Clicking on Element: verifyOTP_ID
+2025-12-20 15:50:37,629 - BasePage.py:[57] - [INFO] - Typed '9000000000' into mobile_number_ID
+2025-12-20 15:50:39,056 - BasePage.py:[50] - [INFO] - Clicking on Element: otpButton_ID
+2025-12-20 15:50:41,934 - BasePage.py:[57] - [INFO] - Typed '876302' into enterOTP_ID
+2025-12-20 15:50:44,865 - BasePage.py:[50] - [INFO] - Clicking on Element: verifyOTP_ID
+2025-12-20 15:50:57,141 - BasePage.py:[50] - [INFO] - Clicking on Element: drawerMenu_XPATH
+2025-12-20 15:50:57,357 - BasePage.py:[50] - [INFO] - Clicking on Element: logoutButton_ID
+2025-12-20 15:50:58,300 - BasePage.py:[50] - [INFO] - Clicking on Element: logoutConfirmation_ID
+2025-12-20 16:37:19,760 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-20 16:37:25,123 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-20 16:37:25,269 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-20 16:37:29,400 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> verifyOTP_ID
+2025-12-20 16:37:41,444 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> drawerMenu_XPATH
+2025-12-20 16:37:44,346 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutButton_ID
+2025-12-20 16:37:44,537 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutConfirmation_ID
+2025-12-20 16:38:02,789 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-20 16:38:08,419 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-20 16:38:08,559 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-20 16:38:12,561 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> verifyOTP_ID
+2025-12-20 16:38:22,778 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-20 16:41:01,788 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-20 16:41:07,164 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-20 16:41:07,308 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-20 16:41:51,528 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-20 16:41:56,535 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-20 16:41:56,685 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-20 16:41:59,986 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> verifyOTP_ID
+2025-12-20 16:42:11,988 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> drawerMenu_XPATH
+2025-12-20 16:42:14,415 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutButton_ID
+2025-12-20 16:42:14,603 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutConfirmation_ID
+2025-12-20 16:42:31,420 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-20 16:42:37,667 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-20 16:42:37,806 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-20 16:42:41,008 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> verifyOTP_ID
+2025-12-20 16:42:52,749 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-20 16:47:22,644 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-20 16:47:28,898 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-20 16:47:29,103 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-20 16:47:33,284 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> verifyOTP_ID
+2025-12-20 16:47:45,165 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> drawerMenu_XPATH
+2025-12-20 16:48:17,601 - BasePage.py:[41] - [ERROR] - FAIL: Element 'drawerMenu_XPATH' not visible after 30s at: (//android.widget.ImageButto)[1]
+2025-12-20 16:48:34,198 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-20 16:48:38,816 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-20 16:48:38,970 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-20 16:48:43,116 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> verifyOTP_ID
+2025-12-20 16:48:54,723 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH

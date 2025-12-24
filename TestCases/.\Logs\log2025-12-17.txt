@@ -1,0 +1,10 @@
+2025-12-17 21:03:51,934 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH
+2025-12-17 21:10:26,111 - BasePage.py:[48] - [INFO] - Typing in Element: mobile_number_XPATH | Value: 9000000000.0
+2025-12-17 21:10:26,738 - BasePage.py:[43] - [INFO] - Clicking on an Element: otpButton_ID
+2025-12-17 21:10:47,294 - BasePage.py:[37] - [ERROR] - Element not found within timeout: enterOTP_ID
+2025-12-17 21:23:14,263 - BasePage.py:[48] - [INFO] - Typing in Element: mobile_number_XPATH | Value: 9000000000
+2025-12-17 21:23:14,876 - BasePage.py:[43] - [INFO] - Clicking on an Element: otpButton_ID
+2025-12-17 21:23:15,810 - BasePage.py:[48] - [INFO] - Typing in Element: enterOTP_ID | Value: 876302
+2025-12-17 21:23:17,894 - BasePage.py:[43] - [INFO] - Clicking on an Element: verifyOTP_ID
+2025-12-17 23:19:08,014 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH
+2025-12-17 23:26:22,491 - BasePage.py:[37] - [ERROR] - Element not found within timeout: mobile_number_XPATH

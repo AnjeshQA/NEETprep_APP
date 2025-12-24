@@ -1,0 +1,9 @@
+2025-12-24 16:30:13,036 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-24 16:30:20,059 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-24 16:30:21,071 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-24 16:30:24,404 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> verifyOTP_ID
+2025-12-24 16:30:36,389 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> drawerMenu_XPATH
+2025-12-24 16:30:38,628 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutButton_ID
+2025-12-24 16:30:39,677 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutConfirmation_ID
+2025-12-24 16:31:01,809 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-24 16:31:33,956 - BasePage.py:[41] - [ERROR] - FAIL: Element 'mobile_number_ID' not visible after 30s at: com.lernr.app:id/authInput

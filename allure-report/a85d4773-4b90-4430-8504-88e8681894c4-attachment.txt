@@ -1,0 +1,7 @@
+[32mINFO    [0m TestCases.conftest:conftest.py:56 Initializing Remote WebDriver session...
+[32mINFO    [0m Pages.BasePage:BasePage.py:55 Step: Typing '9000000000' into -> mobile_number_ID
+[32mINFO    [0m Pages.BasePage:BasePage.py:49 Step: Clicking on Element -> otpButton_ID
+[32mINFO    [0m Pages.BasePage:BasePage.py:55 Step: Typing '876302' into -> enterOTP_ID
+[32mINFO    [0m Pages.BasePage:BasePage.py:49 Step: Clicking on Element -> verifyOTP_ID
+[32mINFO    [0m Pages.BasePage:BasePage.py:49 Step: Clicking on Element -> dailyDpp_XPATH
+[32mINFO    [0m TestCases.conftest:conftest.py:65 Quitting WebDriver session.
