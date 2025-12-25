@@ -1,0 +1,110 @@
+2025-12-25 18:00:21,993 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-25 18:00:32,033 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-25 18:00:33,048 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-25 18:00:36,381 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> verifyOTP_ID
+2025-12-25 18:00:48,350 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> drawerMenu_XPATH
+2025-12-25 18:00:51,950 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutButton_ID
+2025-12-25 18:00:52,329 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutConfirmation_ID
+2025-12-25 18:01:30,465 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-25 18:01:38,199 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-25 18:01:39,329 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-25 18:01:42,679 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> verifyOTP_ID
+2025-12-25 18:02:10,990 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-25 18:02:43,266 - BasePage.py:[41] - [ERROR] - FAIL: Element 'dailyDpp_XPATH' not visible after 30s at: //android.widget.ImageView[@content-desc="strip"]
+2025-12-25 18:03:08,027 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-25 18:03:40,550 - BasePage.py:[41] - [ERROR] - FAIL: Element 'dailyDpp_XPATH' not visible after 30s at: //android.widget.ImageView[@content-desc="strip"]
+2025-12-25 18:04:04,819 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-25 18:04:37,225 - BasePage.py:[41] - [ERROR] - FAIL: Element 'dailyDpp_XPATH' not visible after 30s at: //android.widget.ImageView[@content-desc="strip"]
+2025-12-25 18:05:01,011 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-25 18:05:33,508 - BasePage.py:[41] - [ERROR] - FAIL: Element 'dailyDpp_XPATH' not visible after 30s at: //android.widget.ImageView[@content-desc="strip"]
+2025-12-25 18:06:31,805 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-25 18:07:04,363 - BasePage.py:[41] - [ERROR] - FAIL: Element 'dailyDpp_XPATH' not visible after 30s at: //android.widget.ImageView[@content-desc="strip"]
+2025-12-25 18:07:41,531 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-25 18:08:14,279 - BasePage.py:[41] - [ERROR] - FAIL: Element 'dailyDpp_XPATH' not visible after 30s at: //android.widget.ImageView[@content-desc="strip"]
+2025-12-25 18:08:48,320 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_StartTest_XPATH
+2025-12-25 18:08:51,975 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> selectCorrectOptionBy_ID
+2025-12-25 18:09:24,425 - BasePage.py:[41] - [ERROR] - FAIL: Element 'selectCorrectOptionBy_ID' not visible after 30s at: com.lernr.app:id/option-0
+2025-12-25 18:10:22,272 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_StartTest_XPATH
+2025-12-25 18:10:24,977 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> selectCorrectOptionBy_ID
+2025-12-25 18:10:57,115 - BasePage.py:[41] - [ERROR] - FAIL: Element 'selectCorrectOptionBy_ID' not visible after 30s at: com.lernr.app:id/option-0
+2025-12-25 18:11:13,237 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_StartTest_XPATH
+2025-12-25 18:11:16,740 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> selectCorrectOptionBy_ID
+2025-12-25 18:11:49,424 - BasePage.py:[41] - [ERROR] - FAIL: Element 'selectCorrectOptionBy_ID' not visible after 30s at: com.lernr.app:id/option-0
+2025-12-25 18:13:15,196 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_StartTest_XPATH
+2025-12-25 18:13:18,635 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> selectCorrectOptionBy_ID
+2025-12-25 18:14:50,874 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-25 18:14:56,865 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-25 18:14:57,023 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-25 18:15:03,097 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> verifyOTP_ID
+2025-12-25 18:15:13,382 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> drawerMenu_XPATH
+2025-12-25 18:15:16,386 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutButton_ID
+2025-12-25 18:15:16,689 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutConfirmation_ID
+2025-12-25 18:15:56,228 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-25 18:16:02,201 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-25 18:16:02,408 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-25 18:16:06,500 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> verifyOTP_ID
+2025-12-25 18:16:36,478 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-25 18:17:08,924 - BasePage.py:[41] - [ERROR] - FAIL: Element 'dailyDpp_XPATH' not visible after 30s at: //android.widget.ImageView[@content-desc="strip"]
+2025-12-25 18:17:25,827 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-25 18:17:58,325 - BasePage.py:[41] - [ERROR] - FAIL: Element 'dailyDpp_XPATH' not visible after 30s at: //android.widget.ImageView[@content-desc="strip"]
+2025-12-25 18:19:09,429 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-25 18:19:42,040 - BasePage.py:[41] - [ERROR] - FAIL: Element 'dailyDpp_XPATH' not visible after 30s at: //android.widget.ImageView[@content-desc="strip"]
+2025-12-25 18:20:30,763 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-25 18:20:47,261 - BasePage.py:[44] - [ERROR] - Unexpected error finding 'dailyDpp_XPATH': Message: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Stacktrace:
+UnknownError: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+    at UIA2Proxy.command (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.js:332:13)
+    at AndroidUiautomator2Driver.doFindElementOrEls (/Users/ssd/node_modules/appium-uiautomator2-driver/lib/commands/find.js:40:5)
+    at doFind (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:47:17)
+    at wrappedCondFn (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/basedriver/commands/timeout.ts:114:14)
+    at spin (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:219:20)
+    at spin (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:229:14)
+    at spin (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:229:14)
+    at spin (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:229:14)
+    at spin (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:229:14)
+    at spin (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:229:14)
+    at spin (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:229:14)
+    at spin (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:229:14)
+    at spin (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:229:14)
+    at spin (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:229:14)
+    at waitForCondition (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:236:10)
+    at AndroidUiautomator2Driver.implicitWaitForCondition (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/basedriver/commands/timeout.ts:116:12)
+    at AndroidUiautomator2Driver.findElOrEls (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:70:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/ssd/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2025-12-25 18:21:02,581 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-25 18:21:35,050 - BasePage.py:[41] - [ERROR] - FAIL: Element 'dailyDpp_XPATH' not visible after 30s at: //android.widget.ImageView[@content-desc="strip"]
+2025-12-25 18:21:55,583 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_XPATH
+2025-12-25 18:22:28,617 - BasePage.py:[41] - [ERROR] - FAIL: Element 'dailyDpp_XPATH' not visible after 30s at: //android.widget.ImageView[@content-desc="strip"]
+2025-12-25 18:22:50,238 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_StartTest_XPATH
+2025-12-25 18:22:54,945 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> selectCorrectOptionBy_ID
+2025-12-25 18:23:27,153 - BasePage.py:[41] - [ERROR] - FAIL: Element 'selectCorrectOptionBy_ID' not visible after 30s at: com.lernr.app:id/option-0
+2025-12-25 18:23:48,044 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_StartTest_XPATH
+2025-12-25 18:23:52,558 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> selectCorrectOptionBy_ID
+2025-12-25 18:24:24,867 - BasePage.py:[41] - [ERROR] - FAIL: Element 'selectCorrectOptionBy_ID' not visible after 30s at: com.lernr.app:id/option-0
+2025-12-25 18:24:47,997 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_StartTest_XPATH
+2025-12-25 18:24:50,855 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> selectCorrectOptionBy_ID
+2025-12-25 18:25:23,069 - BasePage.py:[41] - [ERROR] - FAIL: Element 'selectCorrectOptionBy_ID' not visible after 30s at: com.lernr.app:id/option-0
+2025-12-25 18:25:44,360 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_StartTest_XPATH
+2025-12-25 18:25:50,638 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> selectCorrectOptionBy_ID
+2025-12-25 18:26:22,831 - BasePage.py:[41] - [ERROR] - FAIL: Element 'selectCorrectOptionBy_ID' not visible after 30s at: com.lernr.app:id/option-0
+2025-12-25 18:26:46,940 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_StartTest_XPATH
+2025-12-25 18:26:51,712 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> selectCorrectOptionBy_ID
+2025-12-25 18:27:23,837 - BasePage.py:[41] - [ERROR] - FAIL: Element 'selectCorrectOptionBy_ID' not visible after 30s at: com.lernr.app:id/option-0
+2025-12-25 18:27:40,902 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> dailyDpp_StartTest_XPATH
+2025-12-25 18:27:43,111 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> selectCorrectOptionBy_ID
+2025-12-25 18:28:15,283 - BasePage.py:[41] - [ERROR] - FAIL: Element 'selectCorrectOptionBy_ID' not visible after 30s at: com.lernr.app:id/option-0
+2025-12-25 18:42:43,153 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-25 18:42:48,589 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-25 18:42:48,740 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-25 18:42:53,190 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> verifyOTP_ID
+2025-12-25 18:43:05,069 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> drawerMenu_XPATH
+2025-12-25 18:43:07,459 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutButton_ID
+2025-12-25 18:43:07,653 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutConfirmation_ID
+2025-12-25 18:53:39,039 - BasePage.py:[55] - [INFO] - Step: Typing '9000000000' into -> mobile_number_ID
+2025-12-25 18:53:44,468 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> otpButton_ID
+2025-12-25 18:53:44,703 - BasePage.py:[55] - [INFO] - Step: Typing '876302' into -> enterOTP_ID
+2025-12-25 18:53:48,623 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> verifyOTP_ID
+2025-12-25 18:53:59,459 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> drawerMenu_XPATH
+2025-12-25 18:54:01,286 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutButton_ID
+2025-12-25 18:54:02,867 - BasePage.py:[49] - [INFO] - Step: Clicking on Element -> logoutConfirmation_ID

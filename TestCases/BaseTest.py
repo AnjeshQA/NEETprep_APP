@@ -8,7 +8,7 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 log = logging.getLogger(__name__)
-@pytest.mark.flaky(reruns=5)
+@pytest.mark.flaky(reruns=1)
 @pytest.mark.usefixtures("appium_driver", "log_on_failure")
 class BaseTest:
     pass

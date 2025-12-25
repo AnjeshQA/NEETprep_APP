@@ -1,0 +1,1 @@
+{"62624cfd8d8689706b84a2b75c9aa5d6":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"36cb185e89739e35","reportUrl":"http://localhost:8080/job/NEETprep_Native_APP_1st/9/allure/#testresult/36cb185e89739e35","status":"passed","time":{"start":1766669019039,"stop":1766669043806,"duration":24767}}]}}

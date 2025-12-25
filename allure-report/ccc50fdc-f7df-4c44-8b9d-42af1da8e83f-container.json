@@ -1,1 +1,0 @@
-{"uuid": "291f5bd5-975b-4daf-8c25-1999d995b320", "children": ["e8ba3cb3-c807-4874-a398-19958571f5fd"], "befores": [{"name": "appium_driver", "status": "passed", "start": 1766575960659, "stop": 1766575976805}], "afters": [{"name": "appium_driver::0", "status": "passed", "start": 1766575976807, "stop": 1766575978996}], "start": 1766575960659, "stop": 1766575978997}

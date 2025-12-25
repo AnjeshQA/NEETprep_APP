@@ -1,0 +1,10 @@
+INFO     conftest:conftest.py:27 Starting Appium Service...
+INFO     conftest:conftest.py:58 Initializing Standard Remote WebDriver session...
+INFO     Pages.BasePage:BasePage.py:55 Step: Typing '9000000000' into -> mobile_number_ID
+INFO     Pages.BasePage:BasePage.py:49 Step: Clicking on Element -> otpButton_ID
+INFO     Pages.BasePage:BasePage.py:55 Step: Typing '876302' into -> enterOTP_ID
+INFO     Pages.BasePage:BasePage.py:49 Step: Clicking on Element -> verifyOTP_ID
+INFO     Pages.BasePage:BasePage.py:49 Step: Clicking on Element -> drawerMenu_XPATH
+INFO     Pages.BasePage:BasePage.py:49 Step: Clicking on Element -> logoutButton_ID
+INFO     Pages.BasePage:BasePage.py:49 Step: Clicking on Element -> logoutConfirmation_ID
+INFO     conftest:conftest.py:64 Quitting Standard WebDriver session.
