@@ -73,3 +73,22 @@ class BasePage:
             return True
         except:
             return False
+
+    def scroll_to_bottom_fast(self):
+        """
+        Direct approach: Swipes once to the bottom of the scrollable container.
+        This stops the 'up and down' jumping.
+        """
+        try:
+            # Hide keyboard if it's blocking the view
+            if self.driver.is_keyboard_shown():
+                self.driver.hide_keyboard()
+
+            # Native command to scroll to the very end of the page instantly
+            self.driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR,
+                                     'new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollToEnd(1);')
+            return True
+        except Exception:
+            # Fallback: if native fails, do one big manual swipe
+            size = self.driver.get_window_size()
+            self.driver.swipe(size['width'] * 0.5, size['height'] * 0.8, size['width'] * 0.5, size['height'] * 0.2, 500)
