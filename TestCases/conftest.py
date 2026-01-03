@@ -42,10 +42,18 @@ def get_common_options():
     options.set_capability('appPackage', 'com.lernr.app')
     options.set_capability('appActivity', '.ui.splash.SplashActivity')
     options.set_capability('appWaitActivity', 'com.lernr.app.*')
-    options.set_capability('appWaitDuration', 30000)
+    options.set_capability('appWaitDuration', 45000)  # Increased to 45s for slow loading
+
+    # --- CLEANUP & STABILITY IMPROVEMENTS ---
+    options.set_capability('noReset', False)  # Forces clear of app cache/data every run
+    options.set_capability('fullReset', False)  # Keeps app installed but wipes it clean
     options.set_capability('autoGrantPermissions', True)
-    options.set_capability('newCommandTimeout', 300)
-    options.set_capability('adbExecTimeout', 90000)
+    options.set_capability('noSign', True)  # Skips resign step to speed up launch
+
+    # --- TIMEOUT OPTIMIZATIONS ---
+    options.set_capability('newCommandTimeout', 600)  # Increased to 10 mins for long waits
+    options.set_capability('adbExecTimeout', 120000)  # Increased to 120s for slow MBP emulators
+    options.set_capability('androidInstallTimeout', 120000)
     return options
 
 

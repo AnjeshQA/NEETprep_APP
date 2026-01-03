@@ -8,6 +8,7 @@ class loginScreen(BasePage):
         super().__init__(driver)
 
     def gotoLoggedIn(self, mobileNumber, otp):
+        # In loginScreen.py, add this at the start of gotoLoggedIn
         # 1. Type Mobile Number
         self.type("mobile_number_ID", mobileNumber)
 
@@ -24,12 +25,16 @@ class loginScreen(BasePage):
         # 5. Handle OTP
         self.type("enterOTP_ID", otp)
 
-        # Give the UI a moment to register the OTP input before swiping
-        sleep(2)
+        # 1. Hide keyboard again if it's blocking the Verify button
+        if self.driver.is_keyboard_shown():
+            self.driver.hide_keyboard()
 
+        # 2. Go straight to the bottom (Fastest way)
+        self.scroll_to_bottom_fast()
         # 6. COORDINATE FIX: Swipe Up (Pixel 5: 1080x2340)
         # Pulls the 'Verify OTP' button from the bottom edge to the center
-        self.driver.swipe(540, 1800, 540, 600, 1000)
+        #self.driver.swipe(540, 1800, 540, 600, 1000)
+        #self.scroll_until_element_visible("verifyOTP_ID")
 
         # 7. Verify and Proceed
         self.click("verifyOTP_ID")
