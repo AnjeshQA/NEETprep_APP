@@ -30,14 +30,24 @@ class loginScreen(BasePage):
             self.driver.hide_keyboard()
 
         # 2. Go straight to the bottom (Fastest way)
-        self.scroll_to_bottom_fast()
+        # if element is not visible, scroll to bottom and then click
+
+
+        try:
+            self.click("verifyOTP_UIAUTOMATOR")
+        except Exception:
+            self.scroll_to_bottom_fast()
+            self.click("verifyOTP_UIAUTOMATOR")
         # 6. COORDINATE FIX: Swipe Up (Pixel 5: 1080x2340)
         # Pulls the 'Verify OTP' button from the bottom edge to the center
         #self.driver.swipe(540, 1800, 540, 600, 1000)
         #self.scroll_until_element_visible("verifyOTP_ID")
 
+        #after login a Dialog box appears, click on Not Now button
+        self.click("notNow_UIAUTOMATOR")
+
         # 7. Verify and Proceed
-        self.click("verifyOTP_ID")
 
         # Return the next page object
         return HomeScreen(self.driver)
+
