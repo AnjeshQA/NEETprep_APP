@@ -1,12 +1,18 @@
 import openpyxl
 import os
 
+from Utilities.Credentials import get_user_details
+
 
 def get_data(sheetName):
     """
     Reads data from the Excel file and converts numeric values
     to clean strings (removing .0 from floats).
     """
+    # Credentials are never read from the Excel file (it is committed to git)
+    if sheetName == "UserDetail":
+        return get_user_details()
+
     # 1. Construct the path to your excel file
     # This assumes your folder structure is ProjectRoot/Utilities/dataProvider.py
     # and ProjectRoot/excel/testdata.xlsx
