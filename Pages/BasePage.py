@@ -10,6 +10,9 @@ from Utilities import configReader
 # Initialize Logger using your custom Logger utility
 log = Logger(__name__, logging.INFO)
 
+# Values typed into locators whose name contains one of these words are never written to logs
+_SENSITIVE_WORDS = ("otp", "password", "pwd")
+
 
 class BasePage:
     def __init__(self, driver):
@@ -56,7 +59,8 @@ class BasePage:
 
     def type(self, locator, value):
         """Clears, types, and hides keyboard after logging the attempt."""
-        log.logger.info(f"Step: Typing '{value}' into -> {locator}")
+        shown = "****" if any(w in str(locator).lower() for w in _SENSITIVE_WORDS) else value
+        log.logger.info(f"Step: Typing '{shown}' into -> {locator}")
         element = self.get_element(locator)
         element.clear()
         element.send_keys(str(value))
