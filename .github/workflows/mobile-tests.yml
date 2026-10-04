@@ -37,6 +37,16 @@ jobs:
           npm install -g appium
           appium driver install uiautomator2
 
+      - name: Check test credentials
+        env:
+          TEST_MOBILE: ${{ secrets.TEST_MOBILE }}
+          TEST_OTP: ${{ secrets.TEST_OTP }}
+        run: |
+          if [ -z "$TEST_MOBILE" ] || [ -z "$TEST_OTP" ]; then
+            echo "::error::Repository secrets TEST_MOBILE and/or TEST_OTP are not set (Settings > Secrets and variables > Actions)"
+            exit 1
+          fi
+
       - name: Download APK
         env:
           APK_URL: ${{ secrets.APK_URL }}
@@ -60,6 +70,8 @@ jobs:
         uses: reactivecircus/android-emulator-runner@v2
         env:
           APP_APK_PATH: ${{ github.workspace }}/apk/app.apk
+          TEST_MOBILE: ${{ secrets.TEST_MOBILE }}
+          TEST_OTP: ${{ secrets.TEST_OTP }}
         with:
           api-level: 34
           target: google_apis
