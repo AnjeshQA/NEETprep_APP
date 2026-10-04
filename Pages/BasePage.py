@@ -17,7 +17,9 @@ class BasePage:
         # 30s timeout is good for emulators to handle transitions/splash screens
         self.wait = WebDriverWait(self.driver, 30, poll_frequency=1)
 
-    def get_element(self, locator):
+    def get_element(self, locator, timeout=None, log_failure=True):
+        """Returns a visible element. `timeout` overrides the default 30s wait; log_failure=False
+        suppresses the ERROR log (used by presence checks where absence is an expected outcome)."""
         locator_value = configReader.readConfig("locators", locator)
 
         # Mapping suffixes to AppiumBy strategies
@@ -35,10 +37,12 @@ class BasePage:
 
         try:
             # Visibility check is more reliable than presence for interaction
-            element = self.wait.until(EC.visibility_of_element_located((by, locator_value)))
+            wait = self.wait if timeout is None else WebDriverWait(self.driver, timeout, poll_frequency=1)
+            element = wait.until(EC.visibility_of_element_located((by, locator_value)))
             return element
         except TimeoutException:
-            log.logger.error(f"FAIL: Element '{locator}' not visible after 30s at: {locator_value}")
+            if log_failure:
+                log.logger.error(f"FAIL: Element '{locator}' not visible after {timeout or 30}s at: {locator_value}")
             raise
         except Exception as e:
             log.logger.error(f"Unexpected error finding '{locator}': {str(e)}")
@@ -65,13 +69,14 @@ class BasePage:
         except Exception:
             pass
 
-    def is_element_present(self, locator):
-        """Checks presence without raising an exception; useful for conditional logic."""
+    def is_element_present(self, locator, timeout=5):
+        """Returns True if the element becomes visible within `timeout` seconds, else False. Never raises."""
         try:
-            # Use shorter wait for 'check' only logic
-            WebDriverWait(self.driver, 5).until(lambda d: self.get_element(locator))
+            self.get_element(locator, timeout=timeout, log_failure=False)
+            log.logger.info(f"Check: '{locator}' is visible")
             return True
-        except:
+        except Exception:
+            log.logger.warning(f"Check: '{locator}' not visible after {timeout}s")
             return False
 
     def scroll_to_bottom_fast(self):

@@ -11,7 +11,7 @@ def get_data(sheetName):
     # This assumes your folder structure is ProjectRoot/Utilities/dataProvider.py
     # and ProjectRoot/excel/testdata.xlsx
     base_path = os.path.dirname(os.path.abspath(__file__))
-    excel_path = os.path.join(base_path, "..", "excel", "testdata.xlsx")
+    excel_path = os.path.join(base_path, "..", "Excel", "testdata.xlsx")
 
     try:
         workbook = openpyxl.load_workbook(excel_path)
