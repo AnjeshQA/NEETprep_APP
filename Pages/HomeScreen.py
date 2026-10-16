@@ -14,7 +14,10 @@ class HomeScreen(BasePage):
     def gotoLogout(self):
         self.click("drawerMenu_XPATH")
 
-        self.click("logoutButton_UIAUTOMATOR")
+        if not self.click_if_present("logoutButton_UIAUTOMATOR", timeout=3):
+            self.scroll_to_bottom_fast()
+            self.click("logoutButton_UIAUTOMATOR")
+
 
         self.click("logoutConfirmation_ID")
 

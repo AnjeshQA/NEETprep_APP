@@ -6,3 +6,12 @@ __pycache__/
 Logs/
 .Logs/
 .env
+
+.claude/
+.mcp.json
+
+# Generated test output
+allure-results/
+allure-report/
+.pytest_cache/
+.\\Logs\\*
