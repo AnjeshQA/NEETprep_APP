@@ -14,4 +14,3 @@ Logs/
 allure-results/
 allure-report/
 .pytest_cache/
-.\\Logs\\*

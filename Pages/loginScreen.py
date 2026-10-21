@@ -50,4 +50,3 @@ class loginScreen(BasePage):
 
         # Return the next page object
         return HomeScreen(self.driver)
-

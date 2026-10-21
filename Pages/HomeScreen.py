@@ -18,7 +18,6 @@ class HomeScreen(BasePage):
             self.scroll_to_bottom_fast()
             self.click("logoutButton_UIAUTOMATOR")
 
-
         self.click("logoutConfirmation_ID")
 
         # Verify the user is logged out and redirected to the login screen
