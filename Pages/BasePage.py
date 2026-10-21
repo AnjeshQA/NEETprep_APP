@@ -13,6 +13,9 @@ log = Logger(__name__, logging.INFO)
 # Values typed into locators whose name contains one of these words are never written to logs
 _SENSITIVE_WORDS = ("otp", "password", "pwd")
 
+# Must match driver.implicitly_wait() in TestCases/conftest.py
+IMPLICIT_WAIT = 10
+
 
 class BasePage:
     def __init__(self, driver):
@@ -40,9 +43,16 @@ class BasePage:
 
         try:
             # Visibility check is more reliable than presence for interaction
-            wait = self.wait if timeout is None else WebDriverWait(self.driver, timeout, poll_frequency=1)
-            element = wait.until(EC.visibility_of_element_located((by, locator_value)))
-            return element
+            if timeout is None:
+                return self.wait.until(EC.visibility_of_element_located((by, locator_value)))
+            # Short, optional-element lookups: the global implicitly_wait(10) would stretch every poll
+            # to 10s, so disable it for the duration of this explicit wait and restore it afterwards.
+            self.driver.implicitly_wait(0)
+            try:
+                wait = WebDriverWait(self.driver, timeout, poll_frequency=0.5)
+                return wait.until(EC.visibility_of_element_located((by, locator_value)))
+            finally:
+                self.driver.implicitly_wait(IMPLICIT_WAIT)
         except TimeoutException:
             if log_failure:
                 log.logger.error(f"FAIL: Element '{locator}' not visible after {timeout or 30}s at: {locator_value}")
@@ -51,11 +61,20 @@ class BasePage:
             log.logger.error(f"Unexpected error finding '{locator}': {str(e)}")
             raise
 
-    def click(self, locator):
-        """Clicks an element after logging the attempt."""
+    def click(self, locator, timeout=None):
+        """Clicks an element after logging the attempt. Pass a small `timeout` for optional elements."""
         log.logger.info(f"Step: Clicking on Element -> {locator}")
-        element = self.get_element(locator)
+        element = self.get_element(locator, timeout=timeout, log_failure=timeout is None)
         element.click()
+
+    def click_if_present(self, locator, timeout=3):
+        """Clicks the element if it shows up within `timeout` seconds. Returns True if clicked, else False."""
+        try:
+            self.click(locator, timeout=timeout)
+            return True
+        except Exception:
+            log.logger.info(f"Optional element '{locator}' not found within {timeout}s, skipping")
+            return False
 
     def type(self, locator, value):
         """Clears, types, and hides keyboard after logging the attempt."""
