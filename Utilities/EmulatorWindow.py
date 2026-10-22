@@ -8,8 +8,22 @@ log = logging.getLogger(__name__)
 _WINDOW_TITLE = "Android Emulator"
 
 
+def _emulator_is_windowless() -> bool:
+    """True if the emulator was started with -qt-hide-window (Android Studio's 'Running Devices' tool window mode)."""
+    try:
+        out = subprocess.run(["pgrep", "-af", "qemu-system"], capture_output=True, text=True).stdout
+        return "-qt-hide-window" in out
+    except Exception:
+        return False
+
+
 def bring_emulator_to_front() -> bool:
     """Returns True if a window was found and activated. Failures are logged, not raised."""
+    if _emulator_is_windowless():
+        log.warning("Emulator runs without its own window (-qt-hide-window), it is embedded in Android Studio's "
+                    "'Running Devices' panel. Turn off Settings > Tools > Emulator > 'Launch in the Running Devices "
+                    "tool window', then cold-restart the AVD.")
+        return False
     try:
         from Xlib import X, display, protocol
     except ImportError:

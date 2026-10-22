@@ -6,6 +6,9 @@ on:
   pull_request:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 # Cancel an older run of the same branch when a new commit arrives
 concurrency:
   group: mobile-tests-${{ github.ref }}
@@ -47,16 +50,14 @@ jobs:
             exit 1
           fi
 
-      - name: Download APK
+      # The APK lives in a Release of this (private) repo; the built-in token can read it, no extra secret needed.
+      # To test another build: publish a new release and change the tag below.
+      - name: Download APK from this repo's release
         env:
-          APK_URL: ${{ secrets.APK_URL }}
+          GH_TOKEN: ${{ github.token }}
         run: |
-          if [ -z "$APK_URL" ]; then
-            echo "::error::Repository secret APK_URL is not set (Settings > Secrets and variables > Actions)"
-            exit 1
-          fi
           mkdir -p apk
-          curl -fL "$APK_URL" -o apk/app.apk
+          gh release download apk-826 --repo "$GITHUB_REPOSITORY" --pattern '*.apk' --output apk/app.apk
           ls -lh apk/app.apk
 
       # GitHub's Linux runners support hardware acceleration only after enabling KVM
