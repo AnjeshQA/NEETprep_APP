@@ -79,6 +79,8 @@ jobs:
           arch: x86_64
           profile: pixel_6
           disable-animations: true
+          emulator-boot-timeout: 900
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           script: python -m pytest TestCases --alluredir=allure-results --reruns 1
 
       - name: Generate Allure report
