@@ -10,7 +10,9 @@ class loginScreen(BasePage):
     def gotoLoggedIn(self, mobileNumber, otp):
         # In loginScreen.py, add this at the start of gotoLoggedIn
         # 1. Type Mobile Number
-        self.type("mobile_number_ID", mobileNumber)
+        # Optional update popup: give it 3s, then move on
+        if not self.click_if_present("update_app_UIAUTOMATOR", timeout=3):
+            self.type("mobile_number_ID", mobileNumber)
 
         # 2. Hide Keyboard (Ensures the checkbox and buttons are reachable)
         if self.driver.is_keyboard_shown():
@@ -33,9 +35,7 @@ class loginScreen(BasePage):
         # if element is not visible, scroll to bottom and then click
 
 
-        try:
-            self.click("verifyOTP_UIAUTOMATOR")
-        except Exception:
+        if not self.click_if_present("verifyOTP_UIAUTOMATOR", timeout=3):
             self.scroll_to_bottom_fast()
             self.click("verifyOTP_UIAUTOMATOR")
         # 6. COORDINATE FIX: Swipe Up (Pixel 5: 1080x2340)
@@ -50,4 +50,3 @@ class loginScreen(BasePage):
 
         # Return the next page object
         return HomeScreen(self.driver)
-
